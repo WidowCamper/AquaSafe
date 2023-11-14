@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AguaSafe</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 550px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header" id="inicio">
+      <div class="logo"></div>
+      <img src="imagenes/bx-menu-alt-right.svg" alt="" class="hamburguer" />
+      <nav class="menu_navegacion">
+        <a href="#inicio">Inicio</a>
+        <a href="#informacion">Información</a>
+      </nav>
+      <div class="contenedor head">
+        <h1 class="titulo">AguaSafe</h1>
+        <p class="copy"></p>
+      </div>
+    </header>
+    <main>
+      <section class="informacion_contenedor" id="informacion">
+        <h2 class="subtitulo">¿Qué es AguaSafe?</h2>
+        <div class="conetnedor-informacion">
+          <img src="imagenes/LOGO V2-PhotoRoom.png-PhotoRoom.png" alt="" />
+          <div class="infor">
+            <div class="information">
+              <p>
+                Este proyecto se adentra en el corazón de esta problemática
+                ambiental, utilizando la potencia de la tecnología y la
+                recopilación de datos para comprender y abordar de manera
+                efectiva la contaminación en el río Magdalena. Nuestra
+                iniciativa se basa en el análisis exhaustivo de datos
+                recopilados a lo largo de años de investigación y monitoreo, con
+                el objetivo de identificar las fuentes de contaminación, evaluar
+                su impacto y proponer soluciones innovadoras para mitigar este
+                grave problema. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recorrido">
+        <h2 class="subtitulo">Explora las Zonas Afectadas del rio.</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31325.152424722393!2d-74.85211760521946!3d11.065290861357157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42e93b9a71751%3A0x8ce8d3d597c7053!2sBocas%20de%20Cenizas!5e0!3m2!1ses!2sus!4v1699912389778!5m2!1ses!2sus"
+          width="1200"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <section class="caracteristicas">
+        <div class="post-box">
+          <!-- <img src="imagenes/post_2.jpg" alt="" class="post-img" /> ink aqui hay que cambiar la image  -->
+          <a href="post-description.html" class="post-title">
+            Nuestra Base de Datos.
+          </a>
+          <p class="post-description">
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="Equipo">
+      <div class="Nuestro_Equipo">
+        <h2 class="brand">Cuidado-proteccion del rio</h2>
+        <p class="p-brand">AguaSafe proyecto de vida.</p>
+      </div>
+    </footer>
+    <script src="menu.js"></script>
+    <script src="Mapa.js"></script>
+  </body>
+</html>
+<body>
+  
